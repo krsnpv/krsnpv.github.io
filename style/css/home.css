@@ -1,0 +1,136 @@
+/* 
+    Created on : 5 янв. 2023 г., 16:52:31
+    Author     : borisovama@oiate.ru
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	HOMEPAGE SECTIONS 
+/*-----------------------------------------------------------------------------------*/
+
+.hero  {    
+    margin-bottom: 30px;   
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.hero img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.video {
+    margin: 50px 0px;
+    width: 60%;  
+    -filter: grayscale(1) brightness(1) invert(1);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.video iframe {    
+    width: 100%;      
+    height: 400px;
+}
+
+.intro button {
+    align-self: center;    
+}
+
+.blocks {
+    display: flex;
+    text-align: center;
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+.advantages{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.advantages section {
+    flex: 1;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages h3 {
+    font-size: 64px;
+    margin-top: 5px;   
+}
+
+
+.offer {
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    margin: 50px 0px;
+    
+}
+
+.offer section {
+    display: flex;
+    width: 24%;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FFF;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/*
+.divider {
+    -filter: grayscale(1) brightness(1) invert(1);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    height: 10px;
+    margin-top: 20px;
+}
+.divider img {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+    border: silver solid 1px;
+}*/
+
+.offer img {
+    width: 100%;
+}
+.offer p {
+    margin: 10px 30px 25px;    
+    text-align: center;
+}
+
+.offer form {    
+    margin-top: auto;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.contacts{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.map {
+    -filter: grayscale(1) brightness(1) invert(1);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    margin-top: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 400px;     
+}
